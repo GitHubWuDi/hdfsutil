@@ -72,7 +72,7 @@ public interface HDFSUtil {
 	/**
 	 * 判断目录是否存在
 	 * @param filePath
-	 * @param create
+	 * @param create: 是否自动创建该目录
 	 * @return
 	 */
 	public Boolean isExistDir(String filePath, Boolean create);
